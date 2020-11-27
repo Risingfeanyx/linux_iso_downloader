@@ -39,9 +39,6 @@ eight(){
         wget https://bouncer.gentoo.org/fetch/root/all/releases/amd64/autobuilds/20201125T214503Z/install-amd64-minimal-20201125T214503Z.iso
         pause
 }
-nine(){
-        wget https://software-download.microsoft.com/pr/Win10_20H2_English_x64.iso?
-}
 
 # function to display menus
 show_menus() {
@@ -58,11 +55,10 @@ show_menus() {
 	echo " 6. Centos"
 	echo " 7. OpenSuse"
 	echo " 8 Gentoo"
-	echo " 9 Windows 10 English 64 Bit"
 }
 read_options(){
 	local choice
-	read -rp "Enter choice [ 1 - 9] " choice
+	read -rp "Enter choice [ 1 - 8] " choice
 	case $choice in
 		1) one ;;
 		2) two ;;
@@ -72,7 +68,6 @@ read_options(){
 		6) six ;;
 		7) seven ;;
 		8) eight ;;
-		9) nine ;;
 		*) echo -e "${RED}Error...${STD}" && sleep 2
 	esac
 }
