@@ -1,5 +1,4 @@
 #!/bin/bash
-mkdir linux_downloader ; cd linux_downloader || exit
 pause(){
 		read -rep "press [Enter] key to continue or refresh menu"
 }
