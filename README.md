@@ -5,7 +5,10 @@ A quick linux downloader for a few important isos.
 
 Downloads using wget (for now)
 Shows progress bar inside menu
-Opens version specific manpages for each distro/installation guide. Makes for light reading while ISO is DL'ing
+Opens version specific manpages for each distro/installation guide.
+Shows free disk space; where the ISOS are saving/which ones are already saved, and your current OS. 
+
+Makes for light reading while ISO is DL'ing
 
 
 ```
